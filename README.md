@@ -20,18 +20,18 @@
 
 <img src="http://mazandi.herokuapp.com/api?handle=wina418&theme=cold" />
 
-
+---
 
 ## 📮 Contact
 
 [![Gmail Badge](https://img.shields.io/badge/Gmail-a404.18a@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:a404.18a@gmail.com)
 [![Velog](https://img.shields.io/badge/Velog-Blog-20C997?style=for-the-badge&logo=velog&logoColor=white)](https://velog.io/@wina418)
+
 ![Velog's GitHub stats](https://velog-readme-stats.vercel.app/api?name=wina418)
 
+---
 
 ## 🌈 Once I've Used
-
-
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=a40418a&layout=compact)](https://github.com/a40418a/github-readme-stats)
 
@@ -50,6 +50,8 @@
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
 </p>
+
+---
 
 ## 🚀 Projects
 
