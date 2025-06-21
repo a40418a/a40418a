@@ -1,8 +1,18 @@
 ---
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/f212fdf5-3512-411f-9ce2-be55bbfc4ece" width="500"/>
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="70%">
+      <img src="https://github.com/user-attachments/assets/f212fdf5-3512-411f-9ce2-be55bbfc4ece" width="500"/>
+    </td>
+    <td align="left" width="30%">
+      <p>🤓 <a href="#-profile">Profile</a></p>
+      <p>📮 <a href="#-contact">Contact</a></p>
+      <p>🌈 <a href="#-once-ive-used">Once I've Used</a></p>
+      <p>🚀 <a href="#-projects">Projects</a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
