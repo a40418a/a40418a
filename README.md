@@ -27,11 +27,6 @@
   - 광운대학교 컴퓨터정보공학부(부전공: 미디어커뮤니케이션학부) 졸업
   - 한양대학교사범대학부속고등학교 졸업
 
-
-🍑 **Algorithm**: [![Solved.ac Profile](http://mazassumnida.wtf/api/mini/generate_badge?boj=wina418)](https://solved.ac/wina418)
-
-<img src="http://mazandi.herokuapp.com/api?handle=wina418&theme=cold" />
-
 ---
 
 ## 📮 Contact
@@ -45,7 +40,7 @@
 
 ## 🌈 Once I've Used
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=a40418a&layout=compact)](https://github.com/a40418a/github-readme-stats)
+ ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=a40418a&show_icons=true&theme=synthwave) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=a40418a&layout=compact&theme=synthwave)
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
@@ -81,5 +76,20 @@
 | **주식 가상 매매 사이트** | 2024.03-2024.06 | <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /> | 주식 거래에 대한 이해를 높이고, 실제 거래에 앞서 연습할 수 있는 환경을 제공하는 웹 애플리케이션 | [![Link](https://img.shields.io/badge/View-Project-blue?style=flat-square&logo=github)](https://github.com/a40418a/virtual-invest) |
 | **DSL QUANT SYSTEM** | 2024.01–2024.11 | <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/> | 다양한 QUANT 투자전략의 성능을 데이터 기반으로 평가해주는 사이트 | [![Link](https://img.shields.io/badge/View-Project-blue?style=flat-square&logo=github)](https://github.com/a40418a/DSL-QUANT-SYSTEM-FE) |
 
+
+---
+
+## 🫂 Collaboration
+
+<img src="./profile-3d-contrib/profile-season-animate.svg" width="70%" />
+
+
+<a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=a40418a&utm_content=farm">
+<img
+  src="https://render.gitanimals.org/farms/a40418a"
+  width="600"
+  height="300"
+/>
+</a>
 
 
