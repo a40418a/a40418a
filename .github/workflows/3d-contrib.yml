@@ -1,29 +1,30 @@
 name: Generate 3D Contribution SVG
 
 on:
+  workflow_dispatch:      # 수동 실행
   schedule:
-    - cron: "0 0 * * *"   # 매일 새벽(UTC) 자동 갱신
-  workflow_dispatch:       # 수동 실행 버튼
+    - cron: "0 0 * * 1"   # 매주 월요일 00:00 UTC
 
 permissions:
-  contents: write          # SVG 커밋/푸시 권한
+  contents: write         # 레포에 파일 커밋하려면 필요
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate 3D contributions
-        uses: yoshi389111/github-profile-3d-contrib@main
-        with:
+      - name: Generate 3D profile SVG
+        uses: yoshi389111/github-profile-3d-contrib@v2
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # 기본값으로 repo owner를 사용하고, 결과를 profile-3d-contrib/에 커밋합니다.
+        # (별도 입력이 필요없으므로 with: 블록은 생략)
 
-      - name: Commit & push generated files
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "chore: update 3D contribution SVG" || echo "No changes"
-          git push
+      # 선택: 아티팩트로도 올리고 싶다면
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: profile-3d
+          path: profile-3d-contrib/
