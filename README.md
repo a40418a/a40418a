@@ -40,7 +40,10 @@
 
 ## 🌈 Once I've Used
 
- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=a40418a&show_icons=true&theme=synthwave) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=a40418a&layout=compact&theme=synthwave)
+ <p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=a40418a&show_icons=true&theme=synthwave" height="140px"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=a40418a&layout=compact&theme=synthwave" height="140px"/>
+</p>
 
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
@@ -79,7 +82,7 @@
 
 ---
 
-## 🫂 Collaboration
+## 🫂 Contributions
 
 <img src="./profile-3d-contrib/profile-season-animate.svg" width="70%" />
 
@@ -87,8 +90,7 @@
 <a href="https://www.gitanimals.org/en_US?utm_medium=image&utm_source=a40418a&utm_content=farm">
 <img
   src="https://render.gitanimals.org/farms/a40418a"
-  width="600"
-  height="300"
+  width="70%"
 />
 </a>
 
