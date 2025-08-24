@@ -1,12 +1,12 @@
 name: Generate 3D Contribution SVG
 
 on:
-  workflow_dispatch:      # 수동 실행
-  schedule:
-    - cron: "0 0 * * 1"   # 매주 월요일 00:00 UTC
+  schedule:       # 매일 18:00 UTC 실행(원하는 크론으로 바꿔도 됨)
+    - cron: "0 05 * * *"
+  workflow_dispatch:  # 수동 실행
 
 permissions:
-  contents: write         # 레포에 파일 커밋하려면 필요
+  contents: write     # GITHUB_TOKEN으로 커밋/푸시하려면 필요
 
 jobs:
   build:
@@ -14,17 +14,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Generate 3D profile SVG
-        uses: yoshi389111/github-profile-3d-contrib@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # 기본값으로 repo owner를 사용하고, 결과를 profile-3d-contrib/에 커밋합니다.
-        # (별도 입력이 필요없으므로 with: 블록은 생략)
-
-      # 선택: 아티팩트로도 올리고 싶다면
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
         with:
-          name: profile-3d
-          path: profile-3d-contrib/
+          token: ${{ secrets.GITHUB_TOKEN }}  # 기본 토큰으로도 충분
+
+      - name: Generate 3D contribution svgs
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}      # env에 넣는다
+          USERNAME: ${{ github.repository_owner }}       # 보통 본인 아이디
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: update 3D contribution svgs" || echo "No changes"
+          git push
